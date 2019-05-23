@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import CommentSection from '../../components/CommentSection/CommentSection';
+import PropTypes from 'prop-types';
 
 const PostContainer = props => {
   return(
@@ -9,10 +10,14 @@ const PostContainer = props => {
       <div>
         <CommentSection comments={props.post.comments} />
 
-    <input type="text" name="comment" placeholder="Add comment" />
+        <input type="text" name="comment" placeholder="Add comment" />
       </div>
     </div>
   )
 }
+
+PostContainer.propTypes = {
+  username: PropTypes.number
+};
 
 export default PostContainer;

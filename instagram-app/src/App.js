@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
     <h1>Instagram clone</h1>
-      {dummyData.map(post => <PostContainer post={post} />)}
+      {dummyData.map(post => <PostContainer key={post.username} post={post} />)}
     </div>
   );
 }
