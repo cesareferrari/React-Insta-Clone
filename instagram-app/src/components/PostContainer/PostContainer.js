@@ -10,7 +10,6 @@ const PostContainer = props => {
 
       <div>
         <CommentSection comments={props.post.comments} />
-
       </div>
     </div>
   )
