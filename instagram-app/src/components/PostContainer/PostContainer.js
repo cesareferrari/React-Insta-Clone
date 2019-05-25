@@ -1,10 +1,11 @@
 import React from 'react';
 import CommentSection from '../../components/CommentSection/CommentSection';
 import PropTypes from 'prop-types';
+import './PostContainer.css';
 
 const PostContainer = props => {
   return(
-    <div>
+    <div className="post-container">
       <h2>{props.post.username}</h2>
 
       <div>
