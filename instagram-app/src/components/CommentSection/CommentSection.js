@@ -1,6 +1,7 @@
 import React from 'react';
 import Comment from '../../components/CommentSection/Comment';
 import './CommentSection.css';
+import PropTypes from 'prop-types';
 
 class CommentSection extends React.Component {
   constructor(props) {
@@ -46,6 +47,10 @@ class CommentSection extends React.Component {
       </div>
     )
   }
+}
+
+CommentSection.propTypes = {
+  comments: PropTypes.array
 }
 
 export default CommentSection;
