@@ -1,3 +1,9 @@
 header {
   background-color: lightyellow;
+  display: flex;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0 20px;
 }
