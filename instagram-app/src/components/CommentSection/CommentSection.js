@@ -11,7 +11,7 @@ class CommentSection extends React.Component {
     }
   }
 
-  addNewComment = (event) => {
+  addNewComment = event => {
     event.preventDefault();
 
     let newComment = {
