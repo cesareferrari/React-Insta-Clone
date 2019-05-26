@@ -3,3 +3,19 @@
   padding: 2rem;
   margin-bottom: 20px;
 }
+
+.user-thumb {
+  width: 50px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  display: block;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.likes {
+  display: block;
+}
