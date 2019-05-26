@@ -50,7 +50,7 @@ class CommentSection extends React.Component {
 }
 
 CommentSection.propTypes = {
-  comments: PropTypes.array
+  comments: PropTypes.arrayOf(PropTypes.object)
 }
 
 export default CommentSection;
