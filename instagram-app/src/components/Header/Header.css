@@ -2,11 +2,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 6px 20px;
   border-bottom: 1px solid lightgray;
 }
 
-header h1 {
-  margin: 0 20px;
+header h3 {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.jam {
+  color: gray;
 }
 
