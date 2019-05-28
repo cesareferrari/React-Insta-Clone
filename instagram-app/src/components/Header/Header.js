@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
 import SearchBar from '../SearchBar/SearchBar';
+import Logo from './Logo';
+import HeaderIcons from './HeaderIcons';
 
 const Header = props => {
   return(
     <header>
-      <h1>Instagram</h1>
+      <Logo />
       <SearchBar />
+      <HeaderIcons />
     </header>
   )
 }

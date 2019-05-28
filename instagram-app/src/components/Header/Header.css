@@ -1,9 +1,12 @@
 header {
-  background-color: lightyellow;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  border-bottom: 1px solid lightgray;
 }
 
 header h1 {
   margin: 0 20px;
 }
+
