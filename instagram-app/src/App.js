@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import dummyData from './dummy-data';
-import PostContainer from './components/PostContainer/PostContainer';
-import Header from './components/Header/Header';
+import PostsPage from './components/PostContainer/PostsPage';
 
 class App extends React.Component {
   constructor() {
@@ -20,10 +19,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <div className="App">
-      <Header />
-        { this.state.posts.map(post => <PostContainer key={post.username} post={post} />) }
-      </div>
+      <PostsPage posts={this.state.posts} />
     )
   }
 }
