@@ -1,25 +1,16 @@
 import React from 'react';
 import './App.css';
-import dummyData from './dummy-data';
 import PostsPage from './components/PostContainer/PostsPage';
+import withAuthenticate from './authentication/withAuthenticate';
+
+const ComponentFromWithAuthenticate = withAuthenticate(PostsPage)
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      posts: []
-    }
-  }
-
-  componentDidMount() {
-    this.setState({
-      posts: dummyData
-    })
-  }
-
   render() {
     return(
-      <PostsPage posts={this.state.posts} />
+      <div className="App">
+        <ComponentFromWithAuthenticate />
+      </div>
     )
   }
 }
