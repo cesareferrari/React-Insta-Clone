@@ -11,6 +11,10 @@ const PostContainer = props => {
       <UserDisplay username={props.post.username} thumbnailUrl={props.post.thumbnailUrl} />
 
       <img alt="Post" className="post-image" src={props.post.imageUrl} />
+      <div>
+        <span className="jam jam-heart"></span>
+        <span className="jam jam-message-alt"></span>
+      </div>
       <span className="likes">{props.post.likes} likes</span>
 
       <div>

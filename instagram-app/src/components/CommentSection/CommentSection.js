@@ -22,7 +22,8 @@ class CommentSection extends React.Component {
     }
 
     this.setState({
-      comments: [...this.state.comments, newComment ]
+      comments: [...this.state.comments, newComment ],
+      commentText: ''
     })
   }
 
@@ -37,11 +38,11 @@ class CommentSection extends React.Component {
 
         <form className="comment-form" onSubmit={this.addNewComment} >
           <input
-          type="text"
-          name="comment"
-          placeholder="Add comment"
-          value={this.state.commentText}
-          onChange={this.changeHandler}
+            type="text"
+            name="comment"
+            placeholder="Add a comment..."
+            value={this.state.commentText}
+            onChange={this.changeHandler}
           />
         </form>
       </div>
