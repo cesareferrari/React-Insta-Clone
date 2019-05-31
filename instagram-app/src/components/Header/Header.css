@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+header h3 {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.jam {
+  color: gray;
+}
+

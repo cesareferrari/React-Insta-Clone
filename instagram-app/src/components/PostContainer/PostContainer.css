@@ -1,0 +1,24 @@
+.post-container {
+  padding: 1rem;
+  margin: 20px auto;
+  width: 600px;
+  border: 1px solid lightgray;
+}
+
+
+.post-image {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.likes {
+  display: block;
+  margin: 10px 0 20px;
+}
+
+.jam-heart, .jam-message-alt {
+  font-size: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}

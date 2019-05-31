@@ -1,0 +1,11 @@
+.comment {
+  background-color: white;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.comment-username {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}

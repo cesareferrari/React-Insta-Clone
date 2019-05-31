@@ -1,0 +1,10 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.jam-instagram {
+  font-size: 3rem;
+  display: inline-block;
+  margin-right: 30px;
+}

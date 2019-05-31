@@ -1,0 +1,15 @@
+.user-display {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-display h3 {
+  margin: 0 0 0 20px;
+}
+
+.user-thumb {
+  width: 50px;
+  display: block;
+  border-radius: 50%;
+}
