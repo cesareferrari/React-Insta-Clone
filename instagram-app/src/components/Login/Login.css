@@ -1,0 +1,40 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh; */
+}
+
+
+.login-form {
+  width: 600px;
+  background-color: lightgray;
+  padding: 4rem;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  padding: 4px;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: darkgray;
+  padding: 10px 20px;
+  margin: 2rem auto 0;
+  display: block;
+}

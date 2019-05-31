@@ -18,11 +18,18 @@ class PostsPage extends React.Component {
     })
   }
 
+  logout = event => {
+    localStorage.removeItem('user');
+    window.location.reload();
+  }
+
   render() {
     return(
       <div>
       <Header />
         { this.state.posts.map(post => <PostContainer key={post.username} post={post} />) }
+
+      <button name="logout" onClick={this.logout}>Log out</button>
       </div>
     )
   }

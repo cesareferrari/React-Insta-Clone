@@ -8,7 +8,8 @@ class CommentSection extends React.Component {
     super(props);
     this.state = {
       comments: props.comments,
-      commentText: ''
+      commentText: '',
+      username: localStorage.getItem('user')
     }
   }
 
@@ -17,7 +18,7 @@ class CommentSection extends React.Component {
 
     let newComment = {
       id: 10,
-      username: 'dummy',
+      username: this.state.username,
       text: this.state.commentText
     }
 
